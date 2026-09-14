@@ -32,7 +32,6 @@ function handleSubmit(event) {
           message:
             'Sorry, there are no images matching your search query. Please try again!',
           position: 'topRight',
-          backgroundColor: '#EF4040',
           theme: 'dark',
         });
 
@@ -45,7 +44,6 @@ function handleSubmit(event) {
       iziToast.error({
         message: 'Something went wrong. Please try again later.',
         position: 'topRight',
-        backgroundColor: '#EF4040',
         theme: 'dark',
       });
     })
